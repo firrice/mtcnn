@@ -1,0 +1,1890 @@
+﻿生成启动时间为 2018/3/1 10:44:52。
+     1>项目“F:\mtcnn_pose\classtest\classtest\classtest.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"F:\mtcnn_pose\NugetPackages\lmdb-v120-clean.0.9.14.0\build\native\..\..\lib\native\include" /I"F:\mtcnn_pose\NugetPackages\LevelDB-vc120.1.2.0.0\build\native\../..//build/native/include/" /I"F:\mtcnn_pose\NugetPackages\protobuf-v120.2.6.1\build\native\../..//build/native/include/" /IF:\mtcnn_pose\NugetPackages\boost.1.59.0.0\build\native\..\..\lib\native\include\ /IF:\mtcnn_pose\NugetPackages\gflags.2.1.2.1\build\native\../..///build/native/include/ /I"F:\mtcnn_pose\NugetPackages\hdf5-v120-complete.1.8.15.2\build\native\..\..\lib\native\include" /IF:\mtcnn_pose\NugetPackages\glog.0.3.3.0\build\native\../..//build/native/include/ /IF:\mtcnn_pose\NugetPackages\OpenBLAS.0.2.14.1\build\native\..\..\lib\native\include /IF:\mtcnn_pose\NugetPackages\OpenCV.2.4.10\build\native\../../build/native/include/ /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /D HAS_LMDB /D HAS_HDF5 /D HAS_OPENBLAS /D HAS_OPENCV /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt class.cpp
+         class.cpp
+     1>F:\mtcnn_pose\NugetPackages\glog.0.3.3.0\build\native\include\glog/logging.h(1158): warning C4251: “google::LogMessage::LogStream::streambuf_”: class“google::base_logging::LogStreamBuf”需要有 dll 接口由 class“google::LogMessage::LogStream”的客户端使用
+                 F:\mtcnn_pose\NugetPackages\glog.0.3.3.0\build\native\include\glog/logging.h(1088) : 参见“google::base_logging::LogStreamBuf”的声明
+     1>F:\mtcnn_pose\classtest\include\caffe/util/io.hpp(53): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+     1>f:\mtcnn_pose\classtest\classtest\General\draw_3D.h(82): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\mtcnn_pose\classtest\classtest\General\draw_3D.h(83): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\mtcnn_pose\classtest\classtest\General\draw_3D.h(84): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\mtcnn_pose\classtest\classtest\General\draw_3D.h(270): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\mtcnn_pose\classtest\classtest\General\draw_3D.h(271): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\mtcnn_pose\classtest\classtest\General\draw_3D.h(272): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\mtcnn_pose\classtest\classtest\General\draw_3D.h(273): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\mtcnn_pose\classtest\classtest\General\draw_3D.h(274): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\mtcnn_pose\classtest\classtest\General\draw_3D.h(275): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\mtcnn_pose\classtest\classtest\General\draw_3D.h(276): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\mtcnn_pose\classtest\classtest\General\draw_3D.h(277): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\mtcnn_pose\classtest\classtest\General\draw_3D.h(278): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\mtcnn_pose\classtest\classtest\General\draw_3D.h(279): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\mtcnn_pose\classtest\classtest\General\draw_3D.h(280): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\mtcnn_pose\classtest\classtest\General\draw_3D.h(281): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\mtcnn_pose\classtest\classtest\General\draw_3D.h(282): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\mtcnn_pose\classtest\classtest\General\draw_3D.h(283): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\mtcnn_pose\classtest\classtest\General\draw_3D.h(284): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\mtcnn_pose\classtest\classtest\General\draw_3D.h(355): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\mtcnn_pose\classtest\classtest\General\draw_3D.h(356): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\mtcnn_pose\classtest\classtest\General\draw_3D.h(357): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\mtcnn_pose\classtest\classtest\General\draw_3D.h(358): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\mtcnn_pose\classtest\classtest\General\draw_3D.h(359): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\mtcnn_pose\classtest\classtest\General\draw_3D.h(360): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\mtcnn_pose\classtest\classtest\General\draw_3D.h(361): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\mtcnn_pose\classtest\classtest\General\draw_3D.h(362): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\mtcnn_pose\classtest\classtest\General\draw_3D.h(363): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\mtcnn_pose\classtest\classtest\General\draw_3D.h(364): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\mtcnn_pose\classtest\classtest\General\draw_3D.h(365): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\mtcnn_pose\classtest\classtest\General\draw_3D.h(366): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\mtcnn_pose\classtest\classtest\General\draw_3D.h(367): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\mtcnn_pose\classtest\classtest\General\draw_3D.h(368): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\mtcnn_pose\classtest\classtest\General\draw_3D.h(369): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>class.cpp(66): warning C4305: “初始化”: 从“double”到“float”截断
+     1>class.cpp(71): warning C4305: “*=”: 从“double”到“float”截断
+     1>class.cpp(87): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>class.cpp(109): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>class.cpp(110): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>class.cpp(111): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>class.cpp(112): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>class.cpp(130): warning C4305: “参数”: 从“double”到“float”截断
+     1>class.cpp(138): warning C4305: “参数”: 从“double”到“float”截断
+     1>class.cpp(196): warning C4244: “=”: 从“const float”转换到“int”，可能丢失数据
+     1>class.cpp(198): warning C4244: “=”: 从“const float”转换到“int”，可能丢失数据
+     1>class.cpp(200): warning C4244: “=”: 从“const float”转换到“int”，可能丢失数据
+     1>class.cpp(202): warning C4244: “=”: 从“const float”转换到“int”，可能丢失数据
+     1>class.cpp(273): warning C4244: “=”: 从“const float”转换到“int”，可能丢失数据
+     1>class.cpp(275): warning C4244: “=”: 从“const float”转换到“int”，可能丢失数据
+     1>class.cpp(277): warning C4244: “=”: 从“const float”转换到“int”，可能丢失数据
+     1>class.cpp(279): warning C4244: “=”: 从“const float”转换到“int”，可能丢失数据
+     1>class.cpp(293): warning C4552: “+”: 运算符不起任何作用；应输入带副作用的运算符
+     1>class.cpp(377): warning C4244: “初始化”: 从“int64”转换到“double”，可能丢失数据
+     1>class.cpp(391): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>class.cpp(393): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>class.cpp(394): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(19): warning C4661: “void caffe::InputLayer<float>::LayerSetUp(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/input_layer.hpp(23) : 参见“caffe::InputLayer<float>::LayerSetUp”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(19): warning C4661: “void caffe::InputLayer<double>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/input_layer.hpp(23) : 参见“caffe::InputLayer<double>::LayerSetUp”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(20): warning C4661: “void caffe::InnerProductLayer<float>::LayerSetUp(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/inner_product_layer.hpp(23) : 参见“caffe::InnerProductLayer<float>::LayerSetUp”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(20): warning C4661: “void caffe::InnerProductLayer<float>::Reshape(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/inner_product_layer.hpp(25) : 参见“caffe::InnerProductLayer<float>::Reshape”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(20): warning C4661: “void caffe::InnerProductLayer<float>::Forward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/inner_product_layer.hpp(33) : 参见“caffe::InnerProductLayer<float>::Forward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(20): warning C4661: “void caffe::InnerProductLayer<float>::Forward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/inner_product_layer.hpp(35) : 参见“caffe::InnerProductLayer<float>::Forward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(20): warning C4661: “void caffe::InnerProductLayer<float>::Backward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/inner_product_layer.hpp(37) : 参见“caffe::InnerProductLayer<float>::Backward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(20): warning C4661: “void caffe::InnerProductLayer<float>::Backward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/inner_product_layer.hpp(39) : 参见“caffe::InnerProductLayer<float>::Backward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(20): warning C4661: “void caffe::InnerProductLayer<float>::kernel_rotate_all(std::vector<boost::shared_ptr<caffe::Blob<float>>,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=boost::shared_ptr<caffe::Blob<float>>
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/inner_product_layer.hpp(43) : 参见“caffe::InnerProductLayer<float>::kernel_rotate_all”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(20): warning C4661: “void caffe::InnerProductLayer<float>::kernel_rotate(boost::shared_ptr<caffe::Blob<float>>,boost::shared_ptr<caffe::Blob<float>>)”: 没有为显式模板实例化请求提供适当的定义
+                 F:\mtcnn_pose\classtest\include\caffe/layers/inner_product_layer.hpp(45) : 参见“caffe::InnerProductLayer<float>::kernel_rotate”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(20): warning C4661: “void caffe::InnerProductLayer<float>::max_shared_top(std::vector<caffe::Blob<float> *,std::allocator<_Ty>>,std::vector<boost::shared_ptr<caffe::Blob<float>>,std::allocator<boost::shared_ptr<caffe::Blob<float>>>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/inner_product_layer.hpp(47) : 参见“caffe::InnerProductLayer<float>::max_shared_top”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(20): warning C4661: “void caffe::InnerProductLayer<double>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/inner_product_layer.hpp(23) : 参见“caffe::InnerProductLayer<double>::LayerSetUp”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(20): warning C4661: “void caffe::InnerProductLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/inner_product_layer.hpp(25) : 参见“caffe::InnerProductLayer<double>::Reshape”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(20): warning C4661: “void caffe::InnerProductLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/inner_product_layer.hpp(33) : 参见“caffe::InnerProductLayer<double>::Forward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(20): warning C4661: “void caffe::InnerProductLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/inner_product_layer.hpp(35) : 参见“caffe::InnerProductLayer<double>::Forward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(20): warning C4661: “void caffe::InnerProductLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/inner_product_layer.hpp(37) : 参见“caffe::InnerProductLayer<double>::Backward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(20): warning C4661: “void caffe::InnerProductLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/inner_product_layer.hpp(39) : 参见“caffe::InnerProductLayer<double>::Backward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(20): warning C4661: “void caffe::InnerProductLayer<double>::kernel_rotate_all(std::vector<boost::shared_ptr<caffe::Blob<Dtype>>,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=boost::shared_ptr<caffe::Blob<double>>
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/inner_product_layer.hpp(43) : 参见“caffe::InnerProductLayer<double>::kernel_rotate_all”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(20): warning C4661: “void caffe::InnerProductLayer<double>::kernel_rotate(boost::shared_ptr<caffe::Blob<Dtype>>,boost::shared_ptr<caffe::Blob<Dtype>>)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/inner_product_layer.hpp(45) : 参见“caffe::InnerProductLayer<double>::kernel_rotate”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(20): warning C4661: “void caffe::InnerProductLayer<double>::max_shared_top(std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>>,std::vector<boost::shared_ptr<caffe::Blob<Dtype>>,std::allocator<boost::shared_ptr<caffe::Blob<Dtype>>>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/inner_product_layer.hpp(47) : 参见“caffe::InnerProductLayer<double>::max_shared_top”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(21): warning C4661: “void caffe::DropoutLayer<float>::LayerSetUp(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/dropout_layer.hpp(36) : 参见“caffe::DropoutLayer<float>::LayerSetUp”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(21): warning C4661: “void caffe::DropoutLayer<float>::Reshape(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/dropout_layer.hpp(38) : 参见“caffe::DropoutLayer<float>::Reshape”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(21): warning C4661: “void caffe::DropoutLayer<float>::Forward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/dropout_layer.hpp(60) : 参见“caffe::DropoutLayer<float>::Forward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(21): warning C4661: “void caffe::DropoutLayer<float>::Forward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/dropout_layer.hpp(62) : 参见“caffe::DropoutLayer<float>::Forward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(21): warning C4661: “void caffe::DropoutLayer<float>::Backward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/dropout_layer.hpp(64) : 参见“caffe::DropoutLayer<float>::Backward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(21): warning C4661: “void caffe::DropoutLayer<float>::Backward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/dropout_layer.hpp(66) : 参见“caffe::DropoutLayer<float>::Backward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(21): warning C4661: “void caffe::DropoutLayer<double>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/dropout_layer.hpp(36) : 参见“caffe::DropoutLayer<double>::LayerSetUp”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(21): warning C4661: “void caffe::DropoutLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/dropout_layer.hpp(38) : 参见“caffe::DropoutLayer<double>::Reshape”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(21): warning C4661: “void caffe::DropoutLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/dropout_layer.hpp(60) : 参见“caffe::DropoutLayer<double>::Forward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(21): warning C4661: “void caffe::DropoutLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/dropout_layer.hpp(62) : 参见“caffe::DropoutLayer<double>::Forward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(21): warning C4661: “void caffe::DropoutLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/dropout_layer.hpp(64) : 参见“caffe::DropoutLayer<double>::Backward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(21): warning C4661: “void caffe::DropoutLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/dropout_layer.hpp(66) : 参见“caffe::DropoutLayer<double>::Backward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(22): warning C4661: “void caffe::ConvolutionLayer<float>::Forward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/conv_layer.hpp(70) : 参见“caffe::ConvolutionLayer<float>::Forward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(22): warning C4661: “void caffe::ConvolutionLayer<float>::Forward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/conv_layer.hpp(72) : 参见“caffe::ConvolutionLayer<float>::Forward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(22): warning C4661: “void caffe::ConvolutionLayer<float>::Backward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/conv_layer.hpp(74) : 参见“caffe::ConvolutionLayer<float>::Backward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(22): warning C4661: “void caffe::ConvolutionLayer<float>::Backward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/conv_layer.hpp(76) : 参见“caffe::ConvolutionLayer<float>::Backward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(22): warning C4661: “void caffe::ConvolutionLayer<float>::compute_output_shape(void)”: 没有为显式模板实例化请求提供适当的定义
+                 F:\mtcnn_pose\classtest\include\caffe/layers/conv_layer.hpp(79) : 参见“caffe::ConvolutionLayer<float>::compute_output_shape”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(22): warning C4661: “void caffe::ConvolutionLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/conv_layer.hpp(70) : 参见“caffe::ConvolutionLayer<double>::Forward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(22): warning C4661: “void caffe::ConvolutionLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/conv_layer.hpp(72) : 参见“caffe::ConvolutionLayer<double>::Forward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(22): warning C4661: “void caffe::ConvolutionLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/conv_layer.hpp(74) : 参见“caffe::ConvolutionLayer<double>::Backward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(22): warning C4661: “void caffe::ConvolutionLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/conv_layer.hpp(76) : 参见“caffe::ConvolutionLayer<double>::Backward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(22): warning C4661: “void caffe::ConvolutionLayer<double>::compute_output_shape(void)”: 没有为显式模板实例化请求提供适当的定义
+                 F:\mtcnn_pose\classtest\include\caffe/layers/conv_layer.hpp(79) : 参见“caffe::ConvolutionLayer<double>::compute_output_shape”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(24): warning C4661: “void caffe::ReLULayer<float>::Forward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/relu_layer.hpp(44) : 参见“caffe::ReLULayer<float>::Forward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(24): warning C4661: “void caffe::ReLULayer<float>::Forward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/relu_layer.hpp(46) : 参见“caffe::ReLULayer<float>::Forward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(24): warning C4661: “void caffe::ReLULayer<float>::Backward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/relu_layer.hpp(77) : 参见“caffe::ReLULayer<float>::Backward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(24): warning C4661: “void caffe::ReLULayer<float>::Backward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/relu_layer.hpp(79) : 参见“caffe::ReLULayer<float>::Backward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(24): warning C4661: “void caffe::ReLULayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/relu_layer.hpp(44) : 参见“caffe::ReLULayer<double>::Forward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(24): warning C4661: “void caffe::ReLULayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/relu_layer.hpp(46) : 参见“caffe::ReLULayer<double>::Forward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(24): warning C4661: “void caffe::ReLULayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/relu_layer.hpp(77) : 参见“caffe::ReLULayer<double>::Backward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(24): warning C4661: “void caffe::ReLULayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/relu_layer.hpp(79) : 参见“caffe::ReLULayer<double>::Backward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(26): warning C4661: “void caffe::PReLULayer<float>::LayerSetUp(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/prelu_layer.hpp(36) : 参见“caffe::PReLULayer<float>::LayerSetUp”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(26): warning C4661: “void caffe::PReLULayer<float>::Reshape(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/prelu_layer.hpp(39) : 参见“caffe::PReLULayer<float>::Reshape”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(26): warning C4661: “void caffe::PReLULayer<float>::Forward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/prelu_layer.hpp(55) : 参见“caffe::PReLULayer<float>::Forward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(26): warning C4661: “void caffe::PReLULayer<float>::Forward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/prelu_layer.hpp(57) : 参见“caffe::PReLULayer<float>::Forward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(26): warning C4661: “void caffe::PReLULayer<float>::Backward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/prelu_layer.hpp(88) : 参见“caffe::PReLULayer<float>::Backward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(26): warning C4661: “void caffe::PReLULayer<float>::Backward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/prelu_layer.hpp(90) : 参见“caffe::PReLULayer<float>::Backward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(26): warning C4661: “void caffe::PReLULayer<double>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/prelu_layer.hpp(36) : 参见“caffe::PReLULayer<double>::LayerSetUp”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(26): warning C4661: “void caffe::PReLULayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/prelu_layer.hpp(39) : 参见“caffe::PReLULayer<double>::Reshape”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(26): warning C4661: “void caffe::PReLULayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/prelu_layer.hpp(55) : 参见“caffe::PReLULayer<double>::Forward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(26): warning C4661: “void caffe::PReLULayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/prelu_layer.hpp(57) : 参见“caffe::PReLULayer<double>::Forward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(26): warning C4661: “void caffe::PReLULayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/prelu_layer.hpp(88) : 参见“caffe::PReLULayer<double>::Backward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(26): warning C4661: “void caffe::PReLULayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/prelu_layer.hpp(90) : 参见“caffe::PReLULayer<double>::Backward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(27): warning C4661: “void caffe::PoolingLayer<float>::LayerSetUp(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(22) : 参见“caffe::PoolingLayer<float>::LayerSetUp”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(27): warning C4661: “void caffe::PoolingLayer<float>::Reshape(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(24) : 参见“caffe::PoolingLayer<float>::Reshape”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(27): warning C4661: “void caffe::PoolingLayer<float>::Forward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(38) : 参见“caffe::PoolingLayer<float>::Forward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(27): warning C4661: “void caffe::PoolingLayer<float>::Forward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(40) : 参见“caffe::PoolingLayer<float>::Forward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(27): warning C4661: “void caffe::PoolingLayer<float>::Backward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(42) : 参见“caffe::PoolingLayer<float>::Backward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(27): warning C4661: “void caffe::PoolingLayer<float>::Backward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(44) : 参见“caffe::PoolingLayer<float>::Backward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(27): warning C4661: “void caffe::PoolingLayer<double>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(22) : 参见“caffe::PoolingLayer<double>::LayerSetUp”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(27): warning C4661: “void caffe::PoolingLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(24) : 参见“caffe::PoolingLayer<double>::Reshape”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(27): warning C4661: “void caffe::PoolingLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(38) : 参见“caffe::PoolingLayer<double>::Forward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(27): warning C4661: “void caffe::PoolingLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(40) : 参见“caffe::PoolingLayer<double>::Forward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(27): warning C4661: “void caffe::PoolingLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(42) : 参见“caffe::PoolingLayer<double>::Backward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(27): warning C4661: “void caffe::PoolingLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(44) : 参见“caffe::PoolingLayer<double>::Backward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(29): warning C4661: “void caffe::LRNLayer<float>::LayerSetUp(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(27) : 参见“caffe::LRNLayer<float>::LayerSetUp”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(29): warning C4661: “void caffe::LRNLayer<float>::Reshape(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(29) : 参见“caffe::LRNLayer<float>::Reshape”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(29): warning C4661: “void caffe::LRNLayer<float>::Forward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(37) : 参见“caffe::LRNLayer<float>::Forward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(29): warning C4661: “void caffe::LRNLayer<float>::Forward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(39) : 参见“caffe::LRNLayer<float>::Forward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(29): warning C4661: “void caffe::LRNLayer<float>::Backward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(41) : 参见“caffe::LRNLayer<float>::Backward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(29): warning C4661: “void caffe::LRNLayer<float>::Backward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(43) : 参见“caffe::LRNLayer<float>::Backward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(29): warning C4661: “void caffe::LRNLayer<float>::CrossChannelForward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(46) : 参见“caffe::LRNLayer<float>::CrossChannelForward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(29): warning C4661: “void caffe::LRNLayer<float>::CrossChannelForward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(48) : 参见“caffe::LRNLayer<float>::CrossChannelForward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(29): warning C4661: “void caffe::LRNLayer<float>::WithinChannelForward(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(50) : 参见“caffe::LRNLayer<float>::WithinChannelForward”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(29): warning C4661: “void caffe::LRNLayer<float>::CrossChannelBackward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(52) : 参见“caffe::LRNLayer<float>::CrossChannelBackward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(29): warning C4661: “void caffe::LRNLayer<float>::CrossChannelBackward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(54) : 参见“caffe::LRNLayer<float>::CrossChannelBackward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(29): warning C4661: “void caffe::LRNLayer<float>::WithinChannelBackward(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(56) : 参见“caffe::LRNLayer<float>::WithinChannelBackward”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(29): warning C4661: “void caffe::LRNLayer<double>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(27) : 参见“caffe::LRNLayer<double>::LayerSetUp”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(29): warning C4661: “void caffe::LRNLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(29) : 参见“caffe::LRNLayer<double>::Reshape”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(29): warning C4661: “void caffe::LRNLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(37) : 参见“caffe::LRNLayer<double>::Forward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(29): warning C4661: “void caffe::LRNLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(39) : 参见“caffe::LRNLayer<double>::Forward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(29): warning C4661: “void caffe::LRNLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(41) : 参见“caffe::LRNLayer<double>::Backward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(29): warning C4661: “void caffe::LRNLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(43) : 参见“caffe::LRNLayer<double>::Backward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(29): warning C4661: “void caffe::LRNLayer<double>::CrossChannelForward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(46) : 参见“caffe::LRNLayer<double>::CrossChannelForward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(29): warning C4661: “void caffe::LRNLayer<double>::CrossChannelForward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(48) : 参见“caffe::LRNLayer<double>::CrossChannelForward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(29): warning C4661: “void caffe::LRNLayer<double>::WithinChannelForward(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(50) : 参见“caffe::LRNLayer<double>::WithinChannelForward”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(29): warning C4661: “void caffe::LRNLayer<double>::CrossChannelBackward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(52) : 参见“caffe::LRNLayer<double>::CrossChannelBackward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(29): warning C4661: “void caffe::LRNLayer<double>::CrossChannelBackward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(54) : 参见“caffe::LRNLayer<double>::CrossChannelBackward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(29): warning C4661: “void caffe::LRNLayer<double>::WithinChannelBackward(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(56) : 参见“caffe::LRNLayer<double>::WithinChannelBackward”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(31): warning C4661: “void caffe::SoftmaxLayer<float>::Reshape(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/softmax_layer.hpp(22) : 参见“caffe::SoftmaxLayer<float>::Reshape”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(31): warning C4661: “void caffe::SoftmaxLayer<float>::Forward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/softmax_layer.hpp(30) : 参见“caffe::SoftmaxLayer<float>::Forward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(31): warning C4661: “void caffe::SoftmaxLayer<float>::Forward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/softmax_layer.hpp(32) : 参见“caffe::SoftmaxLayer<float>::Forward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(31): warning C4661: “void caffe::SoftmaxLayer<float>::Backward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/softmax_layer.hpp(34) : 参见“caffe::SoftmaxLayer<float>::Backward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(31): warning C4661: “void caffe::SoftmaxLayer<float>::Backward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/softmax_layer.hpp(36) : 参见“caffe::SoftmaxLayer<float>::Backward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(31): warning C4661: “void caffe::SoftmaxLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/softmax_layer.hpp(22) : 参见“caffe::SoftmaxLayer<double>::Reshape”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(31): warning C4661: “void caffe::SoftmaxLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/softmax_layer.hpp(30) : 参见“caffe::SoftmaxLayer<double>::Forward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(31): warning C4661: “void caffe::SoftmaxLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/softmax_layer.hpp(32) : 参见“caffe::SoftmaxLayer<double>::Forward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(31): warning C4661: “void caffe::SoftmaxLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/softmax_layer.hpp(34) : 参见“caffe::SoftmaxLayer<double>::Backward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(31): warning C4661: “void caffe::SoftmaxLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/softmax_layer.hpp(36) : 参见“caffe::SoftmaxLayer<double>::Backward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(33): warning C4661: “void caffe::ConcatLayer<float>::LayerSetUp(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 f:\mtcnn_pose\classtest\classtest\..\include\caffe\layers\concat_layer.hpp(21) : 参见“caffe::ConcatLayer<float>::LayerSetUp”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(33): warning C4661: “void caffe::ConcatLayer<float>::Reshape(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 f:\mtcnn_pose\classtest\classtest\..\include\caffe\layers\concat_layer.hpp(23) : 参见“caffe::ConcatLayer<float>::Reshape”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(33): warning C4661: “void caffe::ConcatLayer<float>::Forward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 f:\mtcnn_pose\classtest\classtest\..\include\caffe\layers\concat_layer.hpp(47) : 参见“caffe::ConcatLayer<float>::Forward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(33): warning C4661: “void caffe::ConcatLayer<float>::Forward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 f:\mtcnn_pose\classtest\classtest\..\include\caffe\layers\concat_layer.hpp(49) : 参见“caffe::ConcatLayer<float>::Forward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(33): warning C4661: “void caffe::ConcatLayer<float>::Backward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 f:\mtcnn_pose\classtest\classtest\..\include\caffe\layers\concat_layer.hpp(74) : 参见“caffe::ConcatLayer<float>::Backward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(33): warning C4661: “void caffe::ConcatLayer<float>::Backward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 f:\mtcnn_pose\classtest\classtest\..\include\caffe\layers\concat_layer.hpp(76) : 参见“caffe::ConcatLayer<float>::Backward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(33): warning C4661: “void caffe::ConcatLayer<double>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 f:\mtcnn_pose\classtest\classtest\..\include\caffe\layers\concat_layer.hpp(21) : 参见“caffe::ConcatLayer<double>::LayerSetUp”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(33): warning C4661: “void caffe::ConcatLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 f:\mtcnn_pose\classtest\classtest\..\include\caffe\layers\concat_layer.hpp(23) : 参见“caffe::ConcatLayer<double>::Reshape”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(33): warning C4661: “void caffe::ConcatLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 f:\mtcnn_pose\classtest\classtest\..\include\caffe\layers\concat_layer.hpp(47) : 参见“caffe::ConcatLayer<double>::Forward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(33): warning C4661: “void caffe::ConcatLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 f:\mtcnn_pose\classtest\classtest\..\include\caffe\layers\concat_layer.hpp(49) : 参见“caffe::ConcatLayer<double>::Forward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(33): warning C4661: “void caffe::ConcatLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 f:\mtcnn_pose\classtest\classtest\..\include\caffe\layers\concat_layer.hpp(74) : 参见“caffe::ConcatLayer<double>::Backward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(33): warning C4661: “void caffe::ConcatLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 f:\mtcnn_pose\classtest\classtest\..\include\caffe\layers\concat_layer.hpp(76) : 参见“caffe::ConcatLayer<double>::Backward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(34): warning C4661: “void caffe::BatchNormLayer<float>::LayerSetUp(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/batch_norm_layer.hpp(47) : 参见“caffe::BatchNormLayer<float>::LayerSetUp”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(34): warning C4661: “void caffe::BatchNormLayer<float>::Reshape(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/batch_norm_layer.hpp(49) : 参见“caffe::BatchNormLayer<float>::Reshape”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(34): warning C4661: “void caffe::BatchNormLayer<float>::Forward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/batch_norm_layer.hpp(57) : 参见“caffe::BatchNormLayer<float>::Forward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(34): warning C4661: “void caffe::BatchNormLayer<float>::Forward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/batch_norm_layer.hpp(59) : 参见“caffe::BatchNormLayer<float>::Forward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(34): warning C4661: “void caffe::BatchNormLayer<float>::Backward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/batch_norm_layer.hpp(61) : 参见“caffe::BatchNormLayer<float>::Backward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(34): warning C4661: “void caffe::BatchNormLayer<float>::Backward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/batch_norm_layer.hpp(63) : 参见“caffe::BatchNormLayer<float>::Backward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(34): warning C4661: “void caffe::BatchNormLayer<double>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/batch_norm_layer.hpp(47) : 参见“caffe::BatchNormLayer<double>::LayerSetUp”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(34): warning C4661: “void caffe::BatchNormLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/batch_norm_layer.hpp(49) : 参见“caffe::BatchNormLayer<double>::Reshape”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(34): warning C4661: “void caffe::BatchNormLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/batch_norm_layer.hpp(57) : 参见“caffe::BatchNormLayer<double>::Forward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(34): warning C4661: “void caffe::BatchNormLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/batch_norm_layer.hpp(59) : 参见“caffe::BatchNormLayer<double>::Forward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(34): warning C4661: “void caffe::BatchNormLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/batch_norm_layer.hpp(61) : 参见“caffe::BatchNormLayer<double>::Backward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(34): warning C4661: “void caffe::BatchNormLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/batch_norm_layer.hpp(63) : 参见“caffe::BatchNormLayer<double>::Backward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(35): warning C4661: “void caffe::ScaleLayer<float>::LayerSetUp(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/scale_layer.hpp(28) : 参见“caffe::ScaleLayer<float>::LayerSetUp”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(35): warning C4661: “void caffe::ScaleLayer<float>::Reshape(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/scale_layer.hpp(30) : 参见“caffe::ScaleLayer<float>::Reshape”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(35): warning C4661: “void caffe::ScaleLayer<float>::Forward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/scale_layer.hpp(59) : 参见“caffe::ScaleLayer<float>::Forward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(35): warning C4661: “void caffe::ScaleLayer<float>::Forward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/scale_layer.hpp(61) : 参见“caffe::ScaleLayer<float>::Forward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(35): warning C4661: “void caffe::ScaleLayer<float>::Backward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/scale_layer.hpp(63) : 参见“caffe::ScaleLayer<float>::Backward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(35): warning C4661: “void caffe::ScaleLayer<float>::Backward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/scale_layer.hpp(65) : 参见“caffe::ScaleLayer<float>::Backward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(35): warning C4661: “void caffe::ScaleLayer<double>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/scale_layer.hpp(28) : 参见“caffe::ScaleLayer<double>::LayerSetUp”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(35): warning C4661: “void caffe::ScaleLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/scale_layer.hpp(30) : 参见“caffe::ScaleLayer<double>::Reshape”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(35): warning C4661: “void caffe::ScaleLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/scale_layer.hpp(59) : 参见“caffe::ScaleLayer<double>::Forward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(35): warning C4661: “void caffe::ScaleLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/scale_layer.hpp(61) : 参见“caffe::ScaleLayer<double>::Forward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(35): warning C4661: “void caffe::ScaleLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/scale_layer.hpp(63) : 参见“caffe::ScaleLayer<double>::Backward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(35): warning C4661: “void caffe::ScaleLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/scale_layer.hpp(65) : 参见“caffe::ScaleLayer<double>::Backward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(36): warning C4661: “void caffe::BiasLayer<float>::LayerSetUp(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/bias_layer.hpp(26) : 参见“caffe::BiasLayer<float>::LayerSetUp”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(36): warning C4661: “void caffe::BiasLayer<float>::Reshape(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/bias_layer.hpp(28) : 参见“caffe::BiasLayer<float>::Reshape”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(36): warning C4661: “void caffe::BiasLayer<float>::Forward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/bias_layer.hpp(36) : 参见“caffe::BiasLayer<float>::Forward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(36): warning C4661: “void caffe::BiasLayer<float>::Forward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/bias_layer.hpp(38) : 参见“caffe::BiasLayer<float>::Forward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(36): warning C4661: “void caffe::BiasLayer<float>::Backward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/bias_layer.hpp(40) : 参见“caffe::BiasLayer<float>::Backward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(36): warning C4661: “void caffe::BiasLayer<float>::Backward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/bias_layer.hpp(42) : 参见“caffe::BiasLayer<float>::Backward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(36): warning C4661: “void caffe::BiasLayer<double>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/bias_layer.hpp(26) : 参见“caffe::BiasLayer<double>::LayerSetUp”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(36): warning C4661: “void caffe::BiasLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/bias_layer.hpp(28) : 参见“caffe::BiasLayer<double>::Reshape”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(36): warning C4661: “void caffe::BiasLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/bias_layer.hpp(36) : 参见“caffe::BiasLayer<double>::Forward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(36): warning C4661: “void caffe::BiasLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/bias_layer.hpp(38) : 参见“caffe::BiasLayer<double>::Forward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(36): warning C4661: “void caffe::BiasLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/bias_layer.hpp(40) : 参见“caffe::BiasLayer<double>::Backward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(36): warning C4661: “void caffe::BiasLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/bias_layer.hpp(42) : 参见“caffe::BiasLayer<double>::Backward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(23): warning C4661: “void caffe::ConvolutionLayer<float>::Forward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/conv_layer.hpp(70) : 参见“caffe::ConvolutionLayer<float>::Forward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(23): warning C4661: “void caffe::ConvolutionLayer<float>::Forward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/conv_layer.hpp(72) : 参见“caffe::ConvolutionLayer<float>::Forward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(23): warning C4661: “void caffe::ConvolutionLayer<float>::Backward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/conv_layer.hpp(74) : 参见“caffe::ConvolutionLayer<float>::Backward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(23): warning C4661: “void caffe::ConvolutionLayer<float>::Backward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/conv_layer.hpp(76) : 参见“caffe::ConvolutionLayer<float>::Backward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(23): warning C4661: “void caffe::ConvolutionLayer<float>::compute_output_shape(void)”: 没有为显式模板实例化请求提供适当的定义
+                 F:\mtcnn_pose\classtest\include\caffe/layers/conv_layer.hpp(79) : 参见“caffe::ConvolutionLayer<float>::compute_output_shape”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(23): warning C4661: “void caffe::ConvolutionLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/conv_layer.hpp(70) : 参见“caffe::ConvolutionLayer<double>::Forward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(23): warning C4661: “void caffe::ConvolutionLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/conv_layer.hpp(72) : 参见“caffe::ConvolutionLayer<double>::Forward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(23): warning C4661: “void caffe::ConvolutionLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/conv_layer.hpp(74) : 参见“caffe::ConvolutionLayer<double>::Backward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(23): warning C4661: “void caffe::ConvolutionLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/conv_layer.hpp(76) : 参见“caffe::ConvolutionLayer<double>::Backward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(23): warning C4661: “void caffe::ConvolutionLayer<double>::compute_output_shape(void)”: 没有为显式模板实例化请求提供适当的定义
+                 F:\mtcnn_pose\classtest\include\caffe/layers/conv_layer.hpp(79) : 参见“caffe::ConvolutionLayer<double>::compute_output_shape”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(25): warning C4661: “void caffe::ReLULayer<float>::Forward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/relu_layer.hpp(44) : 参见“caffe::ReLULayer<float>::Forward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(25): warning C4661: “void caffe::ReLULayer<float>::Forward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/relu_layer.hpp(46) : 参见“caffe::ReLULayer<float>::Forward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(25): warning C4661: “void caffe::ReLULayer<float>::Backward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/relu_layer.hpp(77) : 参见“caffe::ReLULayer<float>::Backward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(25): warning C4661: “void caffe::ReLULayer<float>::Backward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/relu_layer.hpp(79) : 参见“caffe::ReLULayer<float>::Backward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(25): warning C4661: “void caffe::ReLULayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/relu_layer.hpp(44) : 参见“caffe::ReLULayer<double>::Forward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(25): warning C4661: “void caffe::ReLULayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/relu_layer.hpp(46) : 参见“caffe::ReLULayer<double>::Forward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(25): warning C4661: “void caffe::ReLULayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/relu_layer.hpp(77) : 参见“caffe::ReLULayer<double>::Backward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(25): warning C4661: “void caffe::ReLULayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/relu_layer.hpp(79) : 参见“caffe::ReLULayer<double>::Backward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(28): warning C4661: “void caffe::PoolingLayer<float>::LayerSetUp(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(22) : 参见“caffe::PoolingLayer<float>::LayerSetUp”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(28): warning C4661: “void caffe::PoolingLayer<float>::Reshape(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(24) : 参见“caffe::PoolingLayer<float>::Reshape”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(28): warning C4661: “void caffe::PoolingLayer<float>::Forward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(38) : 参见“caffe::PoolingLayer<float>::Forward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(28): warning C4661: “void caffe::PoolingLayer<float>::Forward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(40) : 参见“caffe::PoolingLayer<float>::Forward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(28): warning C4661: “void caffe::PoolingLayer<float>::Backward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(42) : 参见“caffe::PoolingLayer<float>::Backward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(28): warning C4661: “void caffe::PoolingLayer<float>::Backward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(44) : 参见“caffe::PoolingLayer<float>::Backward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(28): warning C4661: “void caffe::PoolingLayer<double>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(22) : 参见“caffe::PoolingLayer<double>::LayerSetUp”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(28): warning C4661: “void caffe::PoolingLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(24) : 参见“caffe::PoolingLayer<double>::Reshape”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(28): warning C4661: “void caffe::PoolingLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(38) : 参见“caffe::PoolingLayer<double>::Forward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(28): warning C4661: “void caffe::PoolingLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(40) : 参见“caffe::PoolingLayer<double>::Forward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(28): warning C4661: “void caffe::PoolingLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(42) : 参见“caffe::PoolingLayer<double>::Backward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(28): warning C4661: “void caffe::PoolingLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(44) : 参见“caffe::PoolingLayer<double>::Backward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(30): warning C4661: “void caffe::LRNLayer<float>::LayerSetUp(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(27) : 参见“caffe::LRNLayer<float>::LayerSetUp”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(30): warning C4661: “void caffe::LRNLayer<float>::Reshape(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(29) : 参见“caffe::LRNLayer<float>::Reshape”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(30): warning C4661: “void caffe::LRNLayer<float>::Forward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(37) : 参见“caffe::LRNLayer<float>::Forward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(30): warning C4661: “void caffe::LRNLayer<float>::Forward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(39) : 参见“caffe::LRNLayer<float>::Forward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(30): warning C4661: “void caffe::LRNLayer<float>::Backward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(41) : 参见“caffe::LRNLayer<float>::Backward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(30): warning C4661: “void caffe::LRNLayer<float>::Backward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(43) : 参见“caffe::LRNLayer<float>::Backward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(30): warning C4661: “void caffe::LRNLayer<float>::CrossChannelForward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(46) : 参见“caffe::LRNLayer<float>::CrossChannelForward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(30): warning C4661: “void caffe::LRNLayer<float>::CrossChannelForward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(48) : 参见“caffe::LRNLayer<float>::CrossChannelForward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(30): warning C4661: “void caffe::LRNLayer<float>::WithinChannelForward(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(50) : 参见“caffe::LRNLayer<float>::WithinChannelForward”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(30): warning C4661: “void caffe::LRNLayer<float>::CrossChannelBackward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(52) : 参见“caffe::LRNLayer<float>::CrossChannelBackward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(30): warning C4661: “void caffe::LRNLayer<float>::CrossChannelBackward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(54) : 参见“caffe::LRNLayer<float>::CrossChannelBackward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(30): warning C4661: “void caffe::LRNLayer<float>::WithinChannelBackward(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(56) : 参见“caffe::LRNLayer<float>::WithinChannelBackward”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(30): warning C4661: “void caffe::LRNLayer<double>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(27) : 参见“caffe::LRNLayer<double>::LayerSetUp”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(30): warning C4661: “void caffe::LRNLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(29) : 参见“caffe::LRNLayer<double>::Reshape”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(30): warning C4661: “void caffe::LRNLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(37) : 参见“caffe::LRNLayer<double>::Forward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(30): warning C4661: “void caffe::LRNLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(39) : 参见“caffe::LRNLayer<double>::Forward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(30): warning C4661: “void caffe::LRNLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(41) : 参见“caffe::LRNLayer<double>::Backward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(30): warning C4661: “void caffe::LRNLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(43) : 参见“caffe::LRNLayer<double>::Backward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(30): warning C4661: “void caffe::LRNLayer<double>::CrossChannelForward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(46) : 参见“caffe::LRNLayer<double>::CrossChannelForward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(30): warning C4661: “void caffe::LRNLayer<double>::CrossChannelForward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(48) : 参见“caffe::LRNLayer<double>::CrossChannelForward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(30): warning C4661: “void caffe::LRNLayer<double>::WithinChannelForward(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(50) : 参见“caffe::LRNLayer<double>::WithinChannelForward”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(30): warning C4661: “void caffe::LRNLayer<double>::CrossChannelBackward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(52) : 参见“caffe::LRNLayer<double>::CrossChannelBackward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(30): warning C4661: “void caffe::LRNLayer<double>::CrossChannelBackward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(54) : 参见“caffe::LRNLayer<double>::CrossChannelBackward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(30): warning C4661: “void caffe::LRNLayer<double>::WithinChannelBackward(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(56) : 参见“caffe::LRNLayer<double>::WithinChannelBackward”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(32): warning C4661: “void caffe::SoftmaxLayer<float>::Reshape(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/softmax_layer.hpp(22) : 参见“caffe::SoftmaxLayer<float>::Reshape”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(32): warning C4661: “void caffe::SoftmaxLayer<float>::Forward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/softmax_layer.hpp(30) : 参见“caffe::SoftmaxLayer<float>::Forward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(32): warning C4661: “void caffe::SoftmaxLayer<float>::Forward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/softmax_layer.hpp(32) : 参见“caffe::SoftmaxLayer<float>::Forward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(32): warning C4661: “void caffe::SoftmaxLayer<float>::Backward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/softmax_layer.hpp(34) : 参见“caffe::SoftmaxLayer<float>::Backward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(32): warning C4661: “void caffe::SoftmaxLayer<float>::Backward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/softmax_layer.hpp(36) : 参见“caffe::SoftmaxLayer<float>::Backward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(32): warning C4661: “void caffe::SoftmaxLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/softmax_layer.hpp(22) : 参见“caffe::SoftmaxLayer<double>::Reshape”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(32): warning C4661: “void caffe::SoftmaxLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/softmax_layer.hpp(30) : 参见“caffe::SoftmaxLayer<double>::Forward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(32): warning C4661: “void caffe::SoftmaxLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/softmax_layer.hpp(32) : 参见“caffe::SoftmaxLayer<double>::Forward_gpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(32): warning C4661: “void caffe::SoftmaxLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/softmax_layer.hpp(34) : 参见“caffe::SoftmaxLayer<double>::Backward_cpu”的声明
+     1>f:\mtcnn_pose\classtest\classtest\addLayer.h(32): warning C4661: “void caffe::SoftmaxLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/softmax_layer.hpp(36) : 参见“caffe::SoftmaxLayer<double>::Backward_gpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::ConvolutionLayer<float>::Forward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/conv_layer.hpp(70) : 参见“caffe::ConvolutionLayer<float>::Forward_cpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::ConvolutionLayer<float>::Forward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/conv_layer.hpp(72) : 参见“caffe::ConvolutionLayer<float>::Forward_gpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::ConvolutionLayer<float>::Backward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/conv_layer.hpp(74) : 参见“caffe::ConvolutionLayer<float>::Backward_cpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::ConvolutionLayer<float>::Backward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/conv_layer.hpp(76) : 参见“caffe::ConvolutionLayer<float>::Backward_gpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::ConvolutionLayer<float>::compute_output_shape(void)”: 没有为显式模板实例化请求提供适当的定义
+                 F:\mtcnn_pose\classtest\include\caffe/layers/conv_layer.hpp(79) : 参见“caffe::ConvolutionLayer<float>::compute_output_shape”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::ConvolutionLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/conv_layer.hpp(70) : 参见“caffe::ConvolutionLayer<double>::Forward_cpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::ConvolutionLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/conv_layer.hpp(72) : 参见“caffe::ConvolutionLayer<double>::Forward_gpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::ConvolutionLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/conv_layer.hpp(74) : 参见“caffe::ConvolutionLayer<double>::Backward_cpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::ConvolutionLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/conv_layer.hpp(76) : 参见“caffe::ConvolutionLayer<double>::Backward_gpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::ConvolutionLayer<double>::compute_output_shape(void)”: 没有为显式模板实例化请求提供适当的定义
+                 F:\mtcnn_pose\classtest\include\caffe/layers/conv_layer.hpp(79) : 参见“caffe::ConvolutionLayer<double>::compute_output_shape”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::ReLULayer<float>::Forward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/relu_layer.hpp(44) : 参见“caffe::ReLULayer<float>::Forward_cpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::ReLULayer<float>::Forward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/relu_layer.hpp(46) : 参见“caffe::ReLULayer<float>::Forward_gpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::ReLULayer<float>::Backward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/relu_layer.hpp(77) : 参见“caffe::ReLULayer<float>::Backward_cpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::ReLULayer<float>::Backward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/relu_layer.hpp(79) : 参见“caffe::ReLULayer<float>::Backward_gpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::ReLULayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/relu_layer.hpp(44) : 参见“caffe::ReLULayer<double>::Forward_cpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::ReLULayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/relu_layer.hpp(46) : 参见“caffe::ReLULayer<double>::Forward_gpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::ReLULayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/relu_layer.hpp(77) : 参见“caffe::ReLULayer<double>::Backward_cpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::ReLULayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/relu_layer.hpp(79) : 参见“caffe::ReLULayer<double>::Backward_gpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::PoolingLayer<float>::LayerSetUp(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(22) : 参见“caffe::PoolingLayer<float>::LayerSetUp”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::PoolingLayer<float>::Reshape(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(24) : 参见“caffe::PoolingLayer<float>::Reshape”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::PoolingLayer<float>::Forward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(38) : 参见“caffe::PoolingLayer<float>::Forward_cpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::PoolingLayer<float>::Forward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(40) : 参见“caffe::PoolingLayer<float>::Forward_gpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::PoolingLayer<float>::Backward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(42) : 参见“caffe::PoolingLayer<float>::Backward_cpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::PoolingLayer<float>::Backward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(44) : 参见“caffe::PoolingLayer<float>::Backward_gpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::PoolingLayer<double>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(22) : 参见“caffe::PoolingLayer<double>::LayerSetUp”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::PoolingLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(24) : 参见“caffe::PoolingLayer<double>::Reshape”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::PoolingLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(38) : 参见“caffe::PoolingLayer<double>::Forward_cpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::PoolingLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(40) : 参见“caffe::PoolingLayer<double>::Forward_gpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::PoolingLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(42) : 参见“caffe::PoolingLayer<double>::Backward_cpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::PoolingLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/pooling_layer.hpp(44) : 参见“caffe::PoolingLayer<double>::Backward_gpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::LRNLayer<float>::LayerSetUp(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(27) : 参见“caffe::LRNLayer<float>::LayerSetUp”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::LRNLayer<float>::Reshape(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(29) : 参见“caffe::LRNLayer<float>::Reshape”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::LRNLayer<float>::Forward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(37) : 参见“caffe::LRNLayer<float>::Forward_cpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::LRNLayer<float>::Forward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(39) : 参见“caffe::LRNLayer<float>::Forward_gpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::LRNLayer<float>::Backward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(41) : 参见“caffe::LRNLayer<float>::Backward_cpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::LRNLayer<float>::Backward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(43) : 参见“caffe::LRNLayer<float>::Backward_gpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::LRNLayer<float>::CrossChannelForward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(46) : 参见“caffe::LRNLayer<float>::CrossChannelForward_cpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::LRNLayer<float>::CrossChannelForward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(48) : 参见“caffe::LRNLayer<float>::CrossChannelForward_gpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::LRNLayer<float>::WithinChannelForward(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(50) : 参见“caffe::LRNLayer<float>::WithinChannelForward”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::LRNLayer<float>::CrossChannelBackward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(52) : 参见“caffe::LRNLayer<float>::CrossChannelBackward_cpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::LRNLayer<float>::CrossChannelBackward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(54) : 参见“caffe::LRNLayer<float>::CrossChannelBackward_gpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::LRNLayer<float>::WithinChannelBackward(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(56) : 参见“caffe::LRNLayer<float>::WithinChannelBackward”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::LRNLayer<double>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(27) : 参见“caffe::LRNLayer<double>::LayerSetUp”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::LRNLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(29) : 参见“caffe::LRNLayer<double>::Reshape”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::LRNLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(37) : 参见“caffe::LRNLayer<double>::Forward_cpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::LRNLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(39) : 参见“caffe::LRNLayer<double>::Forward_gpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::LRNLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(41) : 参见“caffe::LRNLayer<double>::Backward_cpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::LRNLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(43) : 参见“caffe::LRNLayer<double>::Backward_gpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::LRNLayer<double>::CrossChannelForward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(46) : 参见“caffe::LRNLayer<double>::CrossChannelForward_cpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::LRNLayer<double>::CrossChannelForward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(48) : 参见“caffe::LRNLayer<double>::CrossChannelForward_gpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::LRNLayer<double>::WithinChannelForward(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(50) : 参见“caffe::LRNLayer<double>::WithinChannelForward”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::LRNLayer<double>::CrossChannelBackward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(52) : 参见“caffe::LRNLayer<double>::CrossChannelBackward_cpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::LRNLayer<double>::CrossChannelBackward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(54) : 参见“caffe::LRNLayer<double>::CrossChannelBackward_gpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::LRNLayer<double>::WithinChannelBackward(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/lrn_layer.hpp(56) : 参见“caffe::LRNLayer<double>::WithinChannelBackward”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::SoftmaxLayer<float>::Reshape(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/softmax_layer.hpp(22) : 参见“caffe::SoftmaxLayer<float>::Reshape”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::SoftmaxLayer<float>::Forward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/softmax_layer.hpp(30) : 参见“caffe::SoftmaxLayer<float>::Forward_cpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::SoftmaxLayer<float>::Forward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/softmax_layer.hpp(32) : 参见“caffe::SoftmaxLayer<float>::Forward_gpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::SoftmaxLayer<float>::Backward_cpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/softmax_layer.hpp(34) : 参见“caffe::SoftmaxLayer<float>::Backward_cpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::SoftmaxLayer<float>::Backward_gpu(const std::vector<caffe::Blob<float> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     _Ty=caffe::Blob<float> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/softmax_layer.hpp(36) : 参见“caffe::SoftmaxLayer<float>::Backward_gpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::SoftmaxLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/softmax_layer.hpp(22) : 参见“caffe::SoftmaxLayer<double>::Reshape”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::SoftmaxLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/softmax_layer.hpp(30) : 参见“caffe::SoftmaxLayer<double>::Forward_cpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::SoftmaxLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/softmax_layer.hpp(32) : 参见“caffe::SoftmaxLayer<double>::Forward_gpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::SoftmaxLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/softmax_layer.hpp(34) : 参见“caffe::SoftmaxLayer<double>::Backward_cpu”的声明
+     1>F:\mtcnn_pose\NugetPackages\boost.1.59.0.0\lib\native\include\boost/core/checked_delete.hpp(34): warning C4661: “void caffe::SoftmaxLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+                 with
+                 [
+                     Dtype=double
+         ,            _Ty=caffe::Blob<double> *
+                 ]
+                 F:\mtcnn_pose\classtest\include\caffe/layers/softmax_layer.hpp(36) : 参见“caffe::SoftmaxLayer<double>::Backward_gpu”的声明
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\mtcnn_pose\classtest\x64\Release\classtest.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"F:\mtcnn_pose\NugetPackages\boost_python2.7-vc120.1.59.0.0\build\native\..\..\lib\native\address-model-64\lib" /LIBPATH:"F:\mtcnn_pose\NugetPackages\boost_thread-vc120.1.59.0.0\build\native\..\..\lib\native\address-model-64\lib" /LIBPATH:"F:\mtcnn_pose\NugetPackages\boost_system-vc120.1.59.0.0\build\native\..\..\lib\native\address-model-64\lib" /LIBPATH:"F:\mtcnn_pose\NugetPackages\boost_filesystem-vc120.1.59.0.0\build\native\..\..\lib\native\address-model-64\lib" /LIBPATH:"F:\mtcnn_pose\NugetPackages\boost_date_time-vc120.1.59.0.0\build\native\..\..\lib\native\address-model-64\lib" /LIBPATH:"F:\mtcnn_pose\NugetPackages\boost_chrono-vc120.1.59.0.0\build\native\..\..\lib\native\address-model-64\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "F:\mtcnn_pose\NugetPackages\lmdb-v120-clean.0.9.14.0\build\native\..\..\lib\native\lib\x64\lmdb.lib" "F:\mtcnn_pose\NugetPackages\LevelDB-vc120.1.2.0.0\build\native\../..//build/native/lib/x64\v120\Release\LevelDb.lib" "F:\mtcnn_pose\NugetPackages\protobuf-v120.2.6.1\build\native\../..//build/native/lib/x64\v120\Release\libprotobuf.lib" F:\mtcnn_pose\NugetPackages\gflags.2.1.2.1\build\native\../../build/native/x64/v120/dynamic/Lib/gflags.lib "F:\mtcnn_pose\NugetPackages\hdf5-v120-complete.1.8.15.2\build\native\..\..\lib\native\lib\x64\hdf5.lib" "F:\mtcnn_pose\NugetPackages\hdf5-v120-complete.1.8.15.2\build\native\..\..\lib\native\lib\x64\hdf5_cpp.lib" "F:\mtcnn_pose\NugetPackages\hdf5-v120-complete.1.8.15.2\build\native\..\..\lib\native\lib\x64\hdf5_f90cstub.lib" "F:\mtcnn_pose\NugetPackages\hdf5-v120-complete.1.8.15.2\build\native\..\..\lib\native\lib\x64\hdf5_fortran.lib" "F:\mtcnn_pose\NugetPackages\hdf5-v120-complete.1.8.15.2\build\native\..\..\lib\native\lib\x64\hdf5_hl.lib" "F:\mtcnn_pose\NugetPackages\hdf5-v120-complete.1.8.15.2\build\native\..\..\lib\native\lib\x64\hdf5_hl_cpp.lib" "F:\mtcnn_pose\NugetPackages\hdf5-v120-complete.1.8.15.2\build\native\..\..\lib\native\lib\x64\hdf5_hl_f90cstub.lib" "F:\mtcnn_pose\NugetPackages\hdf5-v120-complete.1.8.15.2\build\native\..\..\lib\native\lib\x64\hdf5_hl_fortran.lib" "F:\mtcnn_pose\NugetPackages\hdf5-v120-complete.1.8.15.2\build\native\..\..\lib\native\lib\x64\hdf5_tools.lib" "F:\mtcnn_pose\NugetPackages\hdf5-v120-complete.1.8.15.2\build\native\..\..\lib\native\lib\x64\szip.lib" "F:\mtcnn_pose\NugetPackages\hdf5-v120-complete.1.8.15.2\build\native\..\..\lib\native\lib\x64\zlib.lib" F:\mtcnn_pose\NugetPackages\glog.0.3.3.0\build\native\../../build/native/lib/x64/v120/Release/dynamic/libglog.lib F:\mtcnn_pose\NugetPackages\OpenBLAS.0.2.14.1\build\native\..\..\lib\native\lib\x64\libopenblas.dll.a F:\mtcnn_pose\NugetPackages\OpenCV.2.4.10\build\native\../../build/native/lib/x64/v120/Release/opencv_videostab2410.lib F:\mtcnn_pose\NugetPackages\OpenCV.2.4.10\build\native\../../build/native/lib/x64/v120/Release/opencv_video2410.lib F:\mtcnn_pose\NugetPackages\OpenCV.2.4.10\build\native\../../build/native/lib/x64/v120/Release/opencv_ts2410.lib F:\mtcnn_pose\NugetPackages\OpenCV.2.4.10\build\native\../../build/native/lib/x64/v120/Release/opencv_superres2410.lib F:\mtcnn_pose\NugetPackages\OpenCV.2.4.10\build\native\../../build/native/lib/x64/v120/Release/opencv_stitching2410.lib F:\mtcnn_pose\NugetPackages\OpenCV.2.4.10\build\native\../../build/native/lib/x64/v120/Release/opencv_photo2410.lib F:\mtcnn_pose\NugetPackages\OpenCV.2.4.10\build\native\../../build/native/lib/x64/v120/Release/opencv_ocl2410.lib F:\mtcnn_pose\NugetPackages\OpenCV.2.4.10\build\native\../../build/native/lib/x64/v120/Release/opencv_objdetect2410.lib F:\mtcnn_pose\NugetPackages\OpenCV.2.4.10\build\native\../../build/native/lib/x64/v120/Release/opencv_nonfree2410.lib F:\mtcnn_pose\NugetPackages\OpenCV.2.4.10\build\native\../../build/native/lib/x64/v120/Release/opencv_ml2410.lib F:\mtcnn_pose\NugetPackages\OpenCV.2.4.10\build\native\../../build/native/lib/x64/v120/Release/opencv_legacy2410.lib F:\mtcnn_pose\NugetPackages\OpenCV.2.4.10\build\native\../../build/native/lib/x64/v120/Release/opencv_imgproc2410.lib F:\mtcnn_pose\NugetPackages\OpenCV.2.4.10\build\native\../../build/native/lib/x64/v120/Release/opencv_highgui2410.lib F:\mtcnn_pose\NugetPackages\OpenCV.2.4.10\build\native\../../build/native/lib/x64/v120/Release/opencv_gpu2410.lib F:\mtcnn_pose\NugetPackages\OpenCV.2.4.10\build\native\../../build/native/lib/x64/v120/Release/opencv_flann2410.lib F:\mtcnn_pose\NugetPackages\OpenCV.2.4.10\build\native\../../build/native/lib/x64/v120/Release/opencv_features2d2410.lib F:\mtcnn_pose\NugetPackages\OpenCV.2.4.10\build\native\../../build/native/lib/x64/v120/Release/opencv_core2410.lib F:\mtcnn_pose\NugetPackages\OpenCV.2.4.10\build\native\../../build/native/lib/x64/v120/Release/opencv_contrib2410.lib F:\mtcnn_pose\NugetPackages\OpenCV.2.4.10\build\native\../../build/native/lib/x64/v120/Release/opencv_calib3d2410.lib libcaffe_r.lib caffe.lib cudart.lib cublas.lib curand.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\mtcnn_pose\classtest\x64\Release\classtest.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\mtcnn_pose\classtest\x64\Release\classtest.lib" /MACHINE:X64 x64\Release\class.obj
+         x64\Release\classification.obj
+         x64\Release\FileProc.obj
+         x64\Release\MyString.obj
+         正在生成代码
+         已完成代码的生成
+         classtest.vcxproj -> F:\mtcnn_pose\classtest\x64\Release\classtest.exe
+     1>已完成生成项目“F:\mtcnn_pose\classtest\classtest\classtest.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:28.22
